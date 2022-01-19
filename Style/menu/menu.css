@@ -1,0 +1,93 @@
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 10%;
+}
+.menu .logo {
+  height: 80px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.menu .financiamento{
+  text-align: center;
+  color:#215baa;
+  align-items: center;
+  display: block;
+}
+
+
+.bndes{
+  margin:5px 50px;
+}
+
+.menu .cotacao{
+  text-align: center;
+  align-items: center;
+  
+}
+
+.menu .cotacao .form-floating{
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.menu .cotacao #cotacaoEnviar{
+  margin: 10px 0;
+}
+
+.menu .bars{
+  cursor: pointer;
+  margin-right: 30px;
+  height: 25px;
+  width: 40px;
+  transition: all ease 0.1s;
+}
+
+.menu .bars:hover{
+  background: #fd505049;
+  transition: all ease 0.2s;
+
+}
+
+.offcanvas-body{
+  background: rgb(238, 238, 238);
+   /* border-top: solid 6px; */
+  border-left: solid 6px;
+  border-color: #215baa;
+}
+
+.offcanvas{
+  width: fit-content;
+
+}
+.offcanvas-body ul li{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: larger;
+  
+}
+
+
+
+@media screen and (max-width: 850px){
+ 
+  .menu .bndes, .menu #cartoes{
+    display: none;
+  }
+  .menu{
+    text-align: center;
+  }
+  .menu .logo{
+    display: block;
+     margin: 0 auto;
+  }
+  .menu .bars{
+   
+     margin: 0 auto;
+  }
+}

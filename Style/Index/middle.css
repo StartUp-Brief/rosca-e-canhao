@@ -1,0 +1,60 @@
+#middle{
+    
+    background: rgb(238, 238, 238);
+}
+#middle .row{
+    margin: 0 20px;
+    
+}
+
+#middle .col-lg-5{
+    margin: 20px 0;
+    vertical-align: middle;
+}
+
+ .carousel-control-prev{
+    background: #215aaa55;
+    width: 50px;
+   
+}
+ .carousel-control-next{
+    background: #215aaa55;
+    width: 50px;
+   
+}
+#middle .col-lg-6 iframe{
+    width: 100%;
+    height: 100%;
+}
+#middle .col-lg-12{
+    text-align: center;
+
+}
+#middle img{
+    max-height: 500px;
+    width: 100%;
+}
+#middle h1{
+    color: #215baa;
+    background: rgb(255, 255, 255);
+    width: fit-content;
+}
+#middle p{
+    text-align: justify;
+}
+#importacao{
+    background: rgb(255, 255, 255);
+    background-position: fixed;
+    margin:0;
+    padding: 0;
+   
+   
+}
+
+#importacao p{
+    font-size: 23px;
+    text-align: justify;
+    text-shadow: 1px 2px 5px rgb(189, 189, 189) ;
+    
+    
+}

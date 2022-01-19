@@ -1,0 +1,28 @@
+.carousel-item img{
+  max-height: 520px;
+  
+}
+.carousel-item{
+ align-items: center;
+ text-align: center;
+}
+.banner{
+  margin: 0 auto;
+  
+}
+.banner .carousel-control-prev{
+    background: #215aaa55;
+    width: 100px;
+   
+}
+.banner .carousel-control-next{
+    background: #215aaa55;
+    width: 100px;
+   
+}
+
+@media(max-width:1000px){
+  .carousel-inner{
+    margin-top: 3rem;
+  }
+}

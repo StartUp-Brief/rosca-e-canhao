@@ -1,0 +1,133 @@
+/* fieldset */
+#box-contato {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.mapa {
+  
+}
+.mapa iframe{
+  border: none;
+  margin-top: 50px;
+  width: 100%;
+  height: 80%;
+}
+
+#contato {
+  margin: 0 auto;
+  border: solid;
+  border-color: #215baa;
+  border-width: 3px;
+  vertical-align: middle;
+ 
+}
+#titulo-contato {
+  text-align: left;
+  margin: 10px;
+  color: #215baa;
+}
+
+#contato form {
+  margin: 0 auto;
+  width: 60%;
+  
+}
+
+#contato button{
+  margin: 10px 0;
+}
+#contato button:hover{
+
+  font-weight: bolder;
+}
+
+
+#contato-info h1 {
+  text-align: center;
+  color: #215baa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.img-box {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  margin: 0% auto;
+}
+.contato-cards{
+  background: rgb(224, 224, 224);
+}
+
+.contato-card {
+  display: inline-block;
+  border: solid;
+  border-color: rgb(151, 151, 151);
+  border-radius: 5px;
+  height: 400px;
+  vertical-align: middle;
+  margin: 10px;
+  width: 300px;
+  padding: 10px 15px;
+  background: rgb(255, 255, 255);
+
+}
+
+.contato-card h2 {
+  text-align: center;
+  color: #215baa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contato-card p {
+  text-align: justify;
+
+}
+
+.contato-numeros{
+  width: 100%;
+  display: block;
+}
+
+.telefones{
+  text-align: center;
+ 
+  
+}
+.numero{
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  border-color: #215baa;
+}
+
+.numero:hover{
+  padding: 0 10px;
+  transition: all ease 0.3s;
+  border-left: solid;
+  border-right: solid;
+  
+}
+
+.numero img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.numero p{
+  display: inline-block;
+}
+
+footer .col-lg-5, .col-lg-6{
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}

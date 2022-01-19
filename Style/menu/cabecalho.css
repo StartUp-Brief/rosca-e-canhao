@@ -1,0 +1,11 @@
+.cabecalho {
+  background: #f9f9f9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  min-width: 100%;
+  height: fit-content;
+
+  box-shadow: 0px 5px 15px rgb(105, 105, 105);
+}
