@@ -151,25 +151,11 @@
 		<div class="row produto-banner">
 			<div class="col-lg-5">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-indicators">
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-							class="active" aria-current="true" aria-label="Slide 1"></button>
-						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-							aria-label="Slide 2"></button>
+					<div class="carousel-indicators" id="carousel-indicators">
+						
 					</div>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="img-produtos response">
-								<img src="../../Assets/Produtos/Cabeçote/cabecote-1.jpg" class="d-block w-100 response"
-									alt="...">
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="img-produtos response">
-								<img src="../../Assets/Produtos/Cabeçote/cabecote-2.jpg" class="d-block w-100"
-									alt="...">
-							</div>
-						</div>
+					<div class="carousel-inner" id="carousel-inner">
+						
 					</div>
 					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
 						data-bs-slide="prev">
@@ -206,7 +192,7 @@
 				stroke="#215baa" stroke-width="20" />
 		</svg>
 		<div class="row description">
-			<p class="col-lg-6">
+			<p class="col-lg-6" id="descricao">
 				Para extrusoras com rosca de 50 á 200 mm de diâmetro
 				Diâmetro da tela: proporcional a capacidade de produção da extrusora.
 				Voltagem: 220/380 Volts / 60 HZ / Trifásico
@@ -362,4 +348,34 @@
 
 
 	}
+	let titulo = document.getElementById("produto-nome")
+	let descricao = document.getElementById("descricao")
+	let botoesCarousel =  document.getElementById("carousel-indicators")
+	let imagensCarousel = document.getElementById("carousel-inner")
+
+	const queryString = window.location.search
+	const urlParams = new URLSearchParams(queryString);
+	const produto = urlParams.get('produto') || ""
+
+	fetch('./produtos.json')
+	.then(res=>{return res.json()})
+	.then((data)=>{
+		let produtos = data.produtos
+		console.log(data)
+		titulo.innerText = produtos[produto].titulo
+		descricao.innerText = produtos.cabecote.descricao
+		for (let i = 0; i < produtos[produto].imagens.length; i++) {
+			const img = produtos[produto].imagens[i];
+			console.log(img)
+			let active = i===0?"active":"";
+			botoesCarousel.innerHTML += `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}"
+							class="${active} aria-current="true" aria-label="Slide ${i}"></button>`
+			imagensCarousel.innerHTML += `<div class="carousel-item ${active}">
+							<div class="img-produtos response">
+								<img src="${img}" class="d-block w-100"
+									alt="...">
+							</div>
+						</div>`
+		}
+	})
 </script>
