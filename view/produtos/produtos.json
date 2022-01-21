@@ -10,7 +10,27 @@
 		},
 		"cabecote1" : {
 			"titulo":"Cabeçotes e troca telas hidráulicos",
-			"descricao":"AAAAAAAAAAAPara extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001."
+			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
+			"imagens":[
+				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
+				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
+			]
+		},
+		"cabecote2" : {
+			"titulo":"Cabeçotes e troca telas hidráulicos",
+			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
+			"imagens":[
+				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
+				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
+			]
+		},
+		"cabecote3" : {
+			"titulo":"Cabeçotes e troca telas hidráulicos",
+			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
+			"imagens":[
+				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
+				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
+			]
 		}
 	}
 }
