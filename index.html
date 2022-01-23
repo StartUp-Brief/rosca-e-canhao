@@ -445,11 +445,12 @@
 	  for (const key in produtos) {
 		  if (Object.hasOwnProperty.call(produtos, key)) {
 			  const produto = produtos[key];
+			  console.log(produto)
 			  let e = `<li>
           <a href="./view/produtos/produtos.html?produto=${key}">
             <div class="card">
               <div class="imgBox">
-                <img src="${produto.imagens[1]}" alt="" />
+                <img src="${produto.imagens[0]}" alt="" />
               </div>
               <h3 class="nome-produto">${produto.titulo}</h3>
             </div>

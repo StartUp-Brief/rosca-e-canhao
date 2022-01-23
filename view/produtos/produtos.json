@@ -1,36 +1,27 @@
 {
-	"produtos":{
-		"cabecote" : {
-			"titulo":"Cabeçotes e troca telas hidráulicos",
-			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
-			"imagens":[
-				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
-				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
-			]
-		},
-		"cabecote1" : {
-			"titulo":"Cabeçotes e troca telas hidráulicos",
-			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
-			"imagens":[
-				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
-				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
-			]
-		},
-		"cabecote2" : {
-			"titulo":"Cabeçotes e troca telas hidráulicos",
-			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
-			"imagens":[
-				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
-				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
-			]
-		},
-		"cabecote3" : {
-			"titulo":"Cabeçotes e troca telas hidráulicos",
-			"descricao":"Para extrusoras com rosca de 50 á 200 mm de diâmetro Diâmetro da tela: proporcional a capacidade de produção da extrusora. Voltagem: 220/380 Volts / 60 HZ / Trifásico Motorização compatível para cada cabeçote Para os cabeçotes hidráulicos são acionados através de bombas e pistão hidráulico. OBS. Em alguns casos específicos, poderá usar cilindro de hidrogênio Todos os nossos produtos possuem controle de qualidade de: ISO9001: 2008 / CE / ISO14001 / GB28001.",
-			"imagens":[
-				"../../Assets/Produtos/Cabeçote/cabecote-1.jpg",
-				"../../Assets/Produtos/Cabeçote/cabecote-2.jpg"
-			]
-		}
-	}
+	"produtos":
+		[
+			{
+				"titulo":"Granulador/ Picotador",
+				"descricao":"Fabricado em um novo design modelo compacto, equipamento de alta resistência. Nossos picotadores possuem inversores de frêquencia, motor, rotor largura a partir de 200mm, as facas e a contra faca são em widea. Com capacidade de produção a partir de 300Kg/Hora. Fabricamos granuladores também em aço inox para linha alimentícia. ",
+				"imagens":[
+					"../../Assets/Produtos/RoscaCanhao/GRANULADOR/GRANULADOR.jpg"
+				]
+			},
+			{
+				"titulo":"REDUTORES",
+				"descricao":"Fornecemos redutores para diversos diâmetros de roscas. Nossos redutores são com caixa de rolamento acoplada construidos em aço forjado, engrenagens helicoidas possuem refrigeração e lubrificação na caixa de rolamento.",
+				"imagens":[
+					"../../Assets/Produtos/RoscaCanhao/REDUTORES/REDUTORES.jpg"
+				]
+			},
+			{
+				"titulo":"ROSCA E CANHÃO ALIMENTO",
+				"descricao":"Fornecemos roscas e cilindros para indústria alimenticia com um novo design e uma nova performance. construídas em aço 85.50 bi nitretada a gás durante o ciclo de 198 horas na vertical com camada de nitrogênio de 0.4 à 0.7mm, possuindo uma dureza de 950 HV. Nossas roscas, possuem homogenizadores, misturadores, e filete duplo que proporcionam, melhor plastificação do material, transparência, homogeneização e maior produtividade. Disponibilizamos conjuntos de 30mm à 150mm no estoque.",
+				"imagens":[
+					"../../Assets/Produtos/RoscaCanhao/ROSCA E CANHAO ALIMENTO/ROSCA E CANHAO ALIMENTO.jpg"
+				]
+			}
+		]
+	
 }

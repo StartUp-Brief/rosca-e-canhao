@@ -348,18 +348,18 @@
 
 	const queryString = window.location.search
 	const urlParams = new URLSearchParams(queryString);
-	const produto = urlParams.get('produto') || ""
+	const produtoid = urlParams.get('produto') || ""
 
 	fetch('./produtos.json')
 	.then(res=>{return res.json()})
 	.then((data)=>{
-		let produtos = data.produtos
-		console.log(data)
-		titulo.innerText = produtos[produto].titulo
-		descricao.innerText = produtos.cabecote.descricao
-		for (let i = 0; i < produtos[produto].imagens.length; i++) {
-			const img = produtos[produto].imagens[i];
-			console.log(img)
+		let produto = data.produtos[produtoid]
+		console.log(produto)
+		titulo.innerText = produto.titulo
+		descricao.innerText = produto.descricao
+		for (let i = 0; i < produto.imagens.length; i++) {
+			const img = produto.imagens[i];
+			console.log("aaa"+img)
 			let active = i===0?"active":"";
 			botoesCarousel.innerHTML += `<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}"
 							class="${active} aria-current="true" aria-label="Slide ${i}"></button>`
